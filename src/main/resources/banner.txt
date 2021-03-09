@@ -1,0 +1,2 @@
+${AnsiColor.BLUE} SpringBoot的版本号: ${spring-boot.formatted-version}
+${AnsiColor.BRIGHT_RED} 正在启动《SpringBoot微服务后台管理系统》应用!

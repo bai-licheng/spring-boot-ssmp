@@ -1,0 +1,15 @@
+server:
+    port: 80
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/javakc84?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: root
+        password: 123456
+    devtools:
+        restart:
+            enabled: true
+mybatis-plus:
+    configuration:
+        #日志输出(仅开发环境)
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
