@@ -18,14 +18,18 @@ import lombok.Setter;
 @TableName(value = "user_info")
 @ApiModel(value = "用户模块")
 public class User extends Base {
-    @ApiModelProperty(name = "userName", value = "姓名")
-    private String userName;
-    @ApiModelProperty(name = "userCard", value = "身份证")
-    private String userCard;
-    @ApiModelProperty(name = "userAccount", value = "账号")
-    private String userAccount;
-    @ApiModelProperty(name = "userPassword", value = "密码")
-    private String userPassword;
-    @ApiModelProperty(name = "userLock", value = "是否锁定")
-    private Integer userLock;
+    @ApiModelProperty(name = "name", value = "姓名")
+    private String name;
+    @ApiModelProperty(name = "account", value = "账号")
+    private String account;
+    @ApiModelProperty(name = "password", value = "密码")
+    private String password;
+    @ApiModelProperty(name = "identity", value = "身份证")
+    private String identity;
+    @ApiModelProperty(name = "phone", value = "手机")
+    private String phone;
+    @ApiModelProperty(name = "email", value = "邮箱")
+    private String email;
+    @ApiModelProperty(name = "lock", value = "是否锁定0:未锁定1:已锁定")
+    private Integer lock;
 }

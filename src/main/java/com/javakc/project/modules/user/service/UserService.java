@@ -13,7 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
  * @create: 2020-12-15 13:48
  */
 @Service(value = "userDetailsService")
-@Transactional(readOnly = true)
 public class UserService extends BaseService<UserDao, User> {
 
 
