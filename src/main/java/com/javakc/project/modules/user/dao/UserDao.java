@@ -3,8 +3,6 @@ package com.javakc.project.modules.user.dao;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.javakc.project.modules.user.entity.User;
 
-import java.util.List;
-
 /**
  * @program: spring-boot-project
  * @description: RBAC用户数据层

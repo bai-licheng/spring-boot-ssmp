@@ -22,7 +22,7 @@ public class Base {
     @ApiModelProperty(value = "主键(修改是必填)")
     private Integer id;
     @ApiModelProperty(value = "乐观锁(在并发操作时使用)", hidden = true)
-    private String revision;
+    private Integer revision;
     @ApiModelProperty(value = "创建人", hidden = true)
     private String createdBy;
     @ApiModelProperty(value = "创建时间", hidden = true)

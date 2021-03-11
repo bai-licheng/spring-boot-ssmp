@@ -59,6 +59,9 @@ spring:
             enabled: true
             max-file-size: 100MB
             max-request-size: 200MB
+    mvc:
+        servlet:
+            load-on-startup: 0
 #mybatis plus配置
 mybatis-plus:
     #mapper文件扫描路径
